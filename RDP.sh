@@ -9,8 +9,8 @@ apt install --assume-yes xfce4 desktop-base
 sudo apt-get update
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'  
 sudo apt install --assume-yes xscreensaver
-sudo adduser root chrome-remote-desktop
+sudo adduser alok chrome-remote-desktop
 printf '\n https://remotedesktop.google.com/headless \n'
 read -p "Paste Here: " CRP
-su - root -c """$CRP"""
+su - alok -c """$CRP"""
 printf '\n https://remotedesktop.google.com/access/ \n'
