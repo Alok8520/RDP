@@ -13,3 +13,4 @@ printf '\n https://remotedesktop.google.com/headless \n'
 read -p "Paste Here: " CRP
 su - alok -c """$CRP"""
 printf '\n https://remotedesktop.google.com/access/ \n'
+
